@@ -16,6 +16,34 @@ img {
   width: 300px;
 }
 
+li {
+  list-style-type: none;
+  position: relative;
+}
+
+.moveDiv {
+  position: relative;
+}
+
+#move-right {
+  animation: moveRight 3s ease;
+  animation-timing-function: ease;
+}
+
+ @keyframes moveRight {
+  from {left: -1500px;}
+  to {left: 0%;}
+} 
+
+#move-left {
+  animation: moveLeft 3s ease;
+  animation-timing-function: ease;
+}
+
+@keyframes moveLeft {
+  from {right: 100%;}
+  to {right: 0%}
+}
 
 
 

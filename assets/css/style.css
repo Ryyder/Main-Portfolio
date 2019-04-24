@@ -1,19 +1,41 @@
 .navbar {
   padding: 0;
+  background: #39cccc;
+}
+
+.about-me {
+  font-family: sans-serif;
+  line-height: 50px;
+}
+
+
+
+.pb-5 {
+  padding-bottom: 5rem!important;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(141deg, #0fb8ad, #1fc8db 51%, #2cb5e8 75%);
 }
 
 .container {
   padding-right: 0;
   padding-left: 0;
+  background: none !important;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-img {
+.profile-pic {
   height: 300px;
   width: 300px;
+}
+
+.navbarNameText {
+  color: black;
 }
 
 li {
@@ -26,7 +48,7 @@ li {
 }
 
 #move-right {
-  animation: moveRight 3s ease;
+  animation: moveRight 2s ease;
   animation-timing-function: ease;
 }
 
@@ -36,13 +58,35 @@ li {
 } 
 
 #move-left {
-  animation: moveLeft 3s ease;
+  animation: moveLeft 2s ease;
   animation-timing-function: ease;
 }
 
 @keyframes moveLeft {
   from {right: 100%;}
   to {right: 0%}
+}
+
+.borderIn a:before,
+.borderIn a:after {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.borderIn a:before {
+  top: 0px;
+  transform: translateY(-10px);
+}
+
+.borderIn a:after {
+  bottom: 0px;
+  transform: translateY(10px);
+}
+
+.borderIn a:hover:before,
+.borderIn a:hover:after {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 

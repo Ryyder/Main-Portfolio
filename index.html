@@ -7,9 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- bootstrap link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
   <!-- css link -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -92,7 +93,7 @@
     </div>
 
     <div class="row">
-      <div class="col text-right pr-5" id="move-right">
+      <div class="col text-right pr-5" data-aos="fade-right" data-aos-duration="3000">
         <ul>
           <li><h3>- Education -</h3></li>
           <br>
@@ -115,7 +116,7 @@
           <li><p>09/2001 - 03/2007</p></li>
         </ul>
       </div>
-      <div class="col text-left" id="move-left">
+      <div class="col text-left" data-aos="fade-left" data-aos-duration="3000">
         <ul>
           <li><h3>- Employment -</h3></li>
           <br>
@@ -158,7 +159,7 @@
     </div>
 
     <!-- bootstrap grid system for images -->
-    <div class="container bg-white moveDiv text-center" id="move-right">
+    <div class="container bg-white moveDiv text-center" data-aos="flip-up" data-aos-duration="3000">
       <div class="row mb-3">
         <div class="col-lg-4 col-m-6 col-sm-12 mb-3 justify-content-lg-center">
 
@@ -355,7 +356,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="assets/javascript/jquery.waypoints.min.js"
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

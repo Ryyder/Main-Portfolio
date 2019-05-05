@@ -21,7 +21,7 @@ p {
 }
 
 h2 {
-  padding-top: 5%;
+  padding-top: 8%;
 
 }
 
@@ -72,6 +72,16 @@ hr {
 .about-me {
   font-family: sans-serif;
   line-height: 40px;
+}
+
+.contact-text {
+  margin-right: 30px;
+  
+}
+
+.contact-email {
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 

@@ -76,7 +76,6 @@ hr {
 
 .contact-text {
   margin-right: 30px;
-  
 }
 
 .contact-email {
@@ -90,9 +89,9 @@ hr {
   background-color: #f5f5f5;
 }
 
-/* .resume {
+ .resume {
   padding: 0;
-} */
+} 
 
 body {
   height: 100%;

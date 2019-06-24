@@ -25,7 +25,7 @@ h2 {
 
 }
 
-h3, h4, h5 {
+h3, h4, h5, a {
   color: #616161;
   font-weight: bold;
 }
@@ -51,8 +51,30 @@ hr {
   background-color: #616161;
 }
 
-.jumbotron {
+/* .jumbotron {
   background-image: url("../images/nightpic.jpg");
+  background-attachment: fixed;
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+ */
+.parallax-one {
+  background-image: url("../images/nightpic.jpg");
+  background-attachment: fixed;
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.parallax-two {
+  background-image: url("../images/devpic.jpg");
+  background-attachment: fixed;
+  min-height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,6 +202,10 @@ nav ul li:nth-child(4){
 
 nav ul li:nth-child(5){
 	animation-delay: 2s;
+}
+
+nav ul li:nth-child(6){
+	animation-delay: 2.5s;
 }
 
 nav ul li a{

@@ -7,10 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- bootstrap link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- css link -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 
@@ -38,16 +39,19 @@
               <a class="nav-link" href="#section-one">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-two">Resume</a>
+                <a class="nav-link" href="#section-two">Design</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-three">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-three">Portfolio</a>
+              <a class="nav-link" href="#section-four">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-four">Contact</a>
+              <a class="nav-link" href="#section-five">Contact</a>
             </li>
           </ul>
-      </div>
+        </div>
         <!-- /.navbar-collapse -->
       </div>
       <!-- /.container -->
@@ -56,7 +60,8 @@
     <!-- <hr class="headerBorder"> -->
   </div>
 
-  <div class="jumbotron jumbotron-fluid text-center align-middle">
+  <!-- Intro -->
+  <div class="jumbotron-fluid text-center align-middle parallax-one">
     <br>
     <br>
     <br>
@@ -83,16 +88,16 @@
     <br>
     <br>
     <br>
-    <div id="section-one">
+    <div>
 
     </div>
   </div>
 
-  
+
 
 
   <!-- about me container -->
-  <div class="container bg-white pb-3">
+  <div id="section-one" class="container bg-white pb-3">
     <div class="row text-center">
       <div class="col">
         <h2 class="full-stack" data-aos="fade-down" data-aos-duration="1000">About Me</h2>
@@ -103,54 +108,65 @@
 
   <!-- container using clearfix and float to place text to the right of the image -->
   <div class="container clearfix bg-white">
-      <div class="row text-center mt-4">
-          <div class="col">
-            <div class="card" data-aos="flip-right" style="width: 13rem;">
-              <img src="assets/images/fast.jpg" class="card-img-top fast justify-content-lg-center" alt="speed">
-                <div class="card-body">
-                  <h5 class="card-title" data-aos="zoom-in" data-aos-duration="1000">Fast</h5>
-                  <p class="card-text" data-aos="zoom-in" data-aos-duration="1500">Fast load times and lag free interaction, my highest priority.</p>
-                </div>
-            </div>
+    <!-- <div class="row text-center mt-4">
+      <div class="col">
+        <div class="card" data-aos="flip-right" style="width: 13rem;">
+          <img src="assets/images/fast.jpg" class="card-img-top fast justify-content-lg-center" alt="speed">
+          <div class="card-body">
+            <h5 class="card-title" data-aos="zoom-in" data-aos-duration="1000">Fast</h5>
+            <p class="card-text" data-aos="zoom-in" data-aos-duration="1500">Fast load times and lag free interaction,
+              my highest priority.</p>
           </div>
-          <div class="col">
-            <div class="card" data-aos="flip-right" style="width: 13rem;">
-              <img src="assets/images/responsive.png" class="card-img-top" alt="responsive">
-                <div class="card-body">
-                  <h5 class="card-title" data-aos="zoom-in">Responsive</h5>
-                  <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">My layouts will work on any device, big or small.</p>
-                </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" data-aos="flip-right" style="width: 13rem;">
-              <img src="assets/images/intuitive.jpg" class="card-img-top fast" alt="intuitive">
-                <div class="card-body">
-                  <h5 class="card-title" data-aos="zoom-in">Intuitive</h5>
-                   <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">Strong preference for easy to use, intuitive UX/UI.</p>
-                </div>
-            </div>
-          </div>
-          <div class="col">
-              <div class="card" data-aos="flip-right" style="width: 13rem;">
-                  <img src="assets/images/dynamic.jpg" class="card-img-top fast" alt="dynamic">
-                  <div class="card-body">
-                    <h5 class="card-title" data-aos="zoom-in">Dynamic</h5>
-                    <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">Websites don't have to be static, I love making pages come to life.</p>
-                  </div>
-                </div>
-          </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <img src="assets/images/greatwall.JPG" alt="placeholder" class="img-fluid float-left profile-pic justify-content-lg-center mt-4 ml-4">
-          
-        </div>
-        <div class="col">
-            <p class="about-me justify-content-lg-center mt-3 mr-4">I am versatile web developer who is proficient in front-end technologies, (HTML, CSS, Bootstrap, Javascript, Git) back-end technologies (Python, Node.js, Microsoft SQL Server, MySQL), and best code practices. My objective is to be the best web developer I can be and to contribute to the employer who hires me to give always give 100% focus and effort. I stay dedicated to my craft by constantly learning from seasoned developers, staying humble, and frequently learning all I can about new and upcoming technologies. I believe my experiences in life, education, and having strong problem solving and analytical skills allow me to have continued success as a developer.
-            </p>
         </div>
       </div>
+      <div class="col">
+        <div class="card" data-aos="flip-right" style="width: 13rem;">
+          <img src="assets/images/responsive.png" class="card-img-top" alt="responsive">
+          <div class="card-body">
+            <h5 class="card-title" data-aos="zoom-in">Responsive</h5>
+            <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">My layouts will work on
+              any device, big or small.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" data-aos="flip-right" style="width: 13rem;">
+          <img src="assets/images/intuitive.jpg" class="card-img-top fast" alt="intuitive">
+          <div class="card-body">
+            <h5 class="card-title" data-aos="zoom-in">Intuitive</h5>
+            <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">Strong preference for
+              easy to use, intuitive UX/UI.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" data-aos="flip-right" style="width: 13rem;">
+          <img src="assets/images/dynamic.jpg" class="card-img-top fast" alt="dynamic">
+          <div class="card-body">
+            <h5 class="card-title" data-aos="zoom-in">Dynamic</h5>
+            <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">Websites don't have to be
+              static, I love making pages come to life.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="col">
+        <img src="assets/images/greatwall.JPG" alt="placeholder"
+          class="img-fluid float-left profile-pic justify-content-lg-center mt-4 ml-4">
+
+      </div>
+      <div class="col">
+        <p class="about-me justify-content-lg-center mt-3 mr-4">I am versatile web developer who is proficient in
+          front-end technologies, (HTML, CSS, Bootstrap, Javascript, Git) back-end technologies (Python, Node.js,
+          Microsoft SQL Server, MySQL), and best code practices. My objective is to be the best web developer I can be
+          and to contribute to the employer who hires me to give always give 100% focus and effort. I stay dedicated to
+          my craft by constantly learning from seasoned developers, staying humble, and frequently learning all I can
+          about new and upcoming technologies. I believe my experiences in life, education, and having strong problem
+          solving and analytical skills allow me to have continued success as a developer.
+        </p>
+      </div>
+    </div>
   </div>
   <br>
   <br>
@@ -162,94 +178,277 @@
   </div>
   <br>
   <br>
+  <!-- end section two -->
 
-  <div class="container-fluid pb-5">
+  <!-- Technologies -->
+  <!-- <div class="container bg-white pb-3">
+    <div class="row text-center">
+      <div class="col">
+        <h2 class="full-stack" data-aos="fade-down" data-aos-duration="1000">Technologies</h2>
+      </div>
+    </div>
+    <hr data-aos="flip-left" data-aos-duration="1000">
+  </div> -->
+
+  <div class="jumbotron-fluid text-center align-middle parallax-two">
+    <div class="container pb-3">
+      <div class="row text-center">
+        <div class="col">
+          <h2 class="full-stack" data-aos="fade-down" data-aos-duration="1000">Design & Technology</h2>
+        </div>
+      </div>
+      <hr id="tech-hr" data-aos="flip-left" data-aos-duration="1000">
+    </div>
+    <div class="container mt-4 bg-white">
+      <div class="row">
+        <div class="col-3">
+          <div class="card" data-aos="flip-right" style="width: 13rem;">
+            <img src="assets/images/fast.jpg" class="card-img-top fast justify-content-lg-center" alt="speed">
+            <div class="card-body">
+              <h5 class="card-title" data-aos="zoom-in" data-aos-duration="1000">Fast</h5>
+              <p class="card-text" data-aos="zoom-in" data-aos-duration="1500">Fast load times and lag free interaction,
+                my highest priority.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" data-aos="flip-right" style="width: 13rem;">
+            <img src="assets/images/responsive.png" class="card-img-top" alt="responsive">
+            <div class="card-body">
+              <h5 class="card-title" data-aos="zoom-in">Responsive</h5>
+              <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">My layouts will work on
+                any device, big or small.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" data-aos="flip-right" style="width: 13rem;">
+            <img src="assets/images/intuitive.jpg" class="card-img-top fast" alt="intuitive">
+            <div class="card-body">
+              <h5 class="card-title" data-aos="zoom-in">Intuitive</h5>
+              <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">Strong preference for
+                easy to use, intuitive UX/UI.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" data-aos="flip-right" style="width: 13rem;">
+            <img src="assets/images/dynamic.jpg" class="card-img-top fast" alt="dynamic">
+            <div class="card-body">
+              <h5 class="card-title" data-aos="zoom-in">Dynamic</h5>
+              <p class="card-text" class="card-text" data-aos="zoom-in" data-aos-duration="1500">Websites don't have to
+                be
+                static, I love making pages come to life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+
+    </div>
+
+    <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel" data-interval="2500">
+      <ol>
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/frontend_250x150.png" alt="frontend">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/bootstrap_250x150.png" alt="bootstrap">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/jquery_250x150.png" alt="jquery">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/git_250x150.jpg" alt="git">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/firebase_250x150.png" alt="firebase">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/mongo_250x150.png" alt="mongo">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/mssql_250x150.png" alt="mssql">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/mysql_250x150.jpg" alt="mysql">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/python_250x150.png" alt="python">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/node-js_250x150.jpg" alt="mongo">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/express_250x150.png" alt="express">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/react_250x150.png" alt="react">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/github_250x150.png" alt="github">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- end technologies -->
+  <!-- Resume -->
+  <div id="section-three" class="container-fluid pb-5">
     <div class="row text-center resume">
       <div class="col">
         <h2 class="full-stack" data-aos="fade-down" data-aos-duration="1000">Resume</h2>
       </div>
     </div>
     <hr data-aos="flip-left" data-aos-duration="1000">
-      <!-- <hr class="contentBorder"> -->
+    <!-- <hr class="contentBorder"> -->
   </div>
 
   <div class="container-fluid pb-5">
     <div class="row">
       <div class="col text-right pr-5">
         <ul>
-          <li data-aos="fade-right" data-aos-duration="3100"><h3>- Education -</h3></li>
+          <li data-aos="fade-right" data-aos-duration="3100">
+            <h3>- Education -</h3>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3200"><h4>Trilogy (UW) Coding Bootcamp</h4></li>
+          <li data-aos="fade-right" data-aos-duration="3200">
+            <h4>Trilogy (UW) Coding Bootcamp</h4>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3300"><h5>Full Stack Development Certification</h5></li>
+          <li data-aos="fade-right" data-aos-duration="3300">
+            <h5>Full Stack Development Certification</h5>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3400"><p>02/2019 - 08/2019</p></li>
+          <li data-aos="fade-right" data-aos-duration="3400">
+            <p>02/2019 - 08/2019</p>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3500"><h4>CED Solutions</h4></li>
+          <li data-aos="fade-right" data-aos-duration="3500">
+            <h4>CED Solutions</h4>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3600"><h5>MCSA/MCSE Certification</h5></li>
+          <li data-aos="fade-right" data-aos-duration="3600">
+            <h5>MCSA/MCSE Certification</h5>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3700"><p>05/2009 - 06/2009</p></li>
+          <li data-aos="fade-right" data-aos-duration="3700">
+            <p>05/2009 - 06/2009</p>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3800"><h4>Western Washington University</h4></li>
+          <li data-aos="fade-right" data-aos-duration="3800">
+            <h4>Western Washington University</h4>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="3900"><h5>Computer and Information Systems Security, BS</h5></li>
+          <li data-aos="fade-right" data-aos-duration="3900">
+            <h5>Computer and Information Systems Security, BS</h5>
+          </li>
           <br>
-          <li data-aos="fade-right" data-aos-duration="4000"><p>09/2001 - 03/2007</p></li>
+          <li data-aos="fade-right" data-aos-duration="4000">
+            <p>09/2001 - 03/2007</p>
+          </li>
         </ul>
       </div>
       <div class="col text-left">
         <ul class="resume">
-          <li data-aos="fade-left" data-aos="fade-left" data-aos-duration="3100"><h3>- Employment -</h3></li>
+          <li data-aos="fade-left" data-aos="fade-left" data-aos-duration="3100">
+            <h3>- Employment -</h3>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3200"><h4>Cherwell Software</h4></li>
+          <li data-aos="fade-left" data-aos-duration="3200">
+            <h4>Cherwell Software</h4>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3300"><h5>Apptria Support Engineer</h5></li>
+          <li data-aos="fade-left" data-aos-duration="3300">
+            <h5>Apptria Support Engineer</h5>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3400"><p>01/2012 - Present</p></li>
+          <li data-aos="fade-left" data-aos-duration="3400">
+            <p>01/2012 - Present</p>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3500"><h4>Gravity Payments</h4></li>
+          <li data-aos="fade-left" data-aos-duration="3500">
+            <h4>Gravity Payments</h4>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3600"><h5>Tech Support</h5></li>
+          <li data-aos="fade-left" data-aos-duration="3600">
+            <h5>Tech Support</h5>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3700"><p>01/2010 - 01/2012</p></li>
+          <li data-aos="fade-left" data-aos-duration="3700">
+            <p>01/2010 - 01/2012</p>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3800"><h4>Bungie Inc.</h4></li>
+          <li data-aos="fade-left" data-aos-duration="3800">
+            <h4>Bungie Inc.</h4>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="3900"><h5>Generalist Tester</h5></li>
+          <li data-aos="fade-left" data-aos-duration="3900">
+            <h5>Generalist Tester</h5>
+          </li>
           <br>
-          <li data-aos="fade-left" data-aos-duration="4000"><p>01/2008 - 06/2009</p></li>
+          <li data-aos="fade-left" data-aos-duration="4000">
+            <p>01/2008 - 06/2009</p>
+          </li>
         </ul>
       </div>
     </div>
     <br>
     <br>
     <br>
-  <br>
-  </div> 
-  
-  <div id="section-three">
+    <br>
+  </div>
+
+  <div>
 
   </div>
   <br>
   <br>
   <br>
-    
+  <!-- end resume -->
   <!-- portfolio container -->
-  <div class="container bg-white pb-5">
+  <div class="container bg-white pb-5" id="section-four">
     <div class="row text-center">
       <div class="col">
         <h2 data-aos="fade-down" data-aos-duration="1000" class="full-stack">Portfolio</h2>
       </div>
     </div>
     <hr data-aos="flip-left" data-aos-duration="1000">
-      <!-- <hr class="contentBorder"> -->
+    <!-- <hr class="contentBorder"> -->
   </div>
 
   <!-- bootstrap grid system for images -->
   <div class="container moveDiv text-center justify-content-center">
     <div class="row mb-3">
-      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-down-right" data-aos-duration="3000">
+      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-down-right"
+        data-aos-duration="3000">
 
         <div class="card hangman" style="width: 16rem;">
           <img src="assets/images/rsz_friend.png" class="card-img-top" alt="friend">
@@ -257,98 +456,102 @@
             <h5 class="card-title">Friend Finder</h5>
             <!-- <p class="card-text">Dragonball Z themed hangman game. Built using Javascript</p> -->
             <a href="https://desolate-depths-35958.herokuapp.com/
-            " class="btn btn-secondary">Live Demo</a>
-            <a href="https://github.com/Ryyder/friend-finder" class="btn btn-secondary">Code Link</a>
+            " class="btn btn-secondary" target="_blank">Live Demo</a>
+            <a href="https://github.com/Ryyder/friend-finder" class="btn btn-secondary" target="_blank">Code Link</a>
           </div>
         </div>
 
       </div>
-      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-down" data-aos-duration="3000">
+      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-down"
+        data-aos-duration="3000">
 
         <div class="card trivia" style="width: 16rem;">
           <img src="assets/images/rsz_burger.jpg" class="card-img-top broly" alt="trivia">
           <div class="card-body">
             <h5 class="card-title">Eat-Da-Burger</h5>
             <!-- <p class="card-text">Dragonball Z themed trivia game. Built using Javascript and JQuery</p> -->
-            <a href="https://glacial-bastion-97406.herokuapp.com/" class="btn btn-secondary">Live Demo</a>
-            <a href="https://github.com/Ryyder/burger" class="btn btn-secondary">Code Link</a>
+            <a href="https://glacial-bastion-97406.herokuapp.com/" class="btn btn-secondary" target="_blank">Live Demo</a>
+            <a href="https://github.com/Ryyder/burger" class="btn btn-secondary" target="_blank">Code Link</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-down-left" data-aos-duration="3000">
+      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-down-left"
+        data-aos-duration="3000">
 
-          <div class="card rps" style="width: 16rem;">
-            <img src="assets/images/rsz_1pocketadvisor.jpg" class="card-img-top broly" alt="pocketadvisor">
-              <div class="card-body">
-                <h5 class="card-title">Pocket Advisor</h5>
-                <!-- <p class="card-text">Play Rock Paper Scissors online with friends. Built using javascript, JQuery, and
+        <div class="card rps" style="width: 16rem;">
+          <img src="assets/images/rsz_1pocketadvisor.jpg" class="card-img-top broly" alt="pocketadvisor">
+          <div class="card-body">
+            <h5 class="card-title">Pocket Advisor</h5>
+            <!-- <p class="card-text">Play Rock Paper Scissors online with friends. Built using javascript, JQuery, and
                 Firebase</p> -->
-                <a href="https://frozen-spire-30925.herokuapp.com/" class="btn btn-secondary">Live Demo</a>
-                <a href="https://github.com/Ryyder/project2_5" class="btn btn-secondary">Code Link</a>
-              </div>
-          </div>
-
-      </div>
-    </div>
-    <div class="row mb-3">
-      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="3000">
-
-        <div class="card" style="width: 16rem;">
-          <img src="assets/images/point.jpg" class="card-img-top broly" alt="point">
-          <div class="card-body">
-            <h5 class="card-title">Crystal Collector</h5>
-            <!-- <p class="card-text">Dragonball Z themed point collector game. Built using Javascript and JQuery</p> -->
-            <a href="https://ryyder.github.io/unit-4-game/" class="btn btn-secondary">Live Demo</a>
-            <a href="https://github.com/Ryyder/unit-4-game" class="btn btn-secondary">Code Link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3000">
-
-        <div class="card" style="width: 16rem;">
-          <img src="assets/images/giphy.gif" class="card-img-top broly" alt="giphy">
-          <div class="card-body">
-             <h5 class="card-title">GIFTastic</h5>
-            <!-- <p class="card-text">Generate GIFs! Built using Javascript, JQuery, and AJAX</p> -->
-            <a href="https://ryyder.github.io/GifTastic/" class="btn btn-secondary">Live Demo</a>
-            <a href="https://github.com/Ryyder/GifTastic" class="btn btn-secondary">Code Link</a>
-          </div>
-        </div>
-
-      </div>
-      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="3000">
-
-        <div class="card" style="width: 16rem;">
-          <img src="assets/images/rsz_bamazon.png" class="card-img-top broly" alt="giphy">
-          <div class="card-body">
-               <h5 class="card-title">Bamazon</h5>
-              <!-- <p class="card-text">Control your wifi bulb with our app. Built using javascript, JQuery, Google Maps,
-              Open Weather Map, LIFX APIs, and Firebase</p> -->
-              <!-- <a href="https://ryyder.github.io/project1/" class="btn btn-secondary">Live Demo</a> -->
-              <a href="https://github.com/Ryyder/bamazon" class="btn btn-secondary">Code Link</a>
+            <a href="https://frozen-spire-30925.herokuapp.com/" class="btn btn-secondary" target="_blank">Live Demo</a>
+            <a href="https://github.com/Ryyder/project2_5" class="btn btn-secondary" target="_blank">Code Link</a>
           </div>
         </div>
 
       </div>
     </div>
     <div class="row mb-3">
-      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-up-right" data-aos-duration="3000">
+      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-right"
+        data-aos-duration="3000">
 
         <div class="card" style="width: 16rem;">
           <img src="assets/images/rsz_liri.jpg" class="card-img-top" alt="liri">
           <div class="card-body">
             <h5 class="card-title">LIRI Bot</h5>
             <!-- <p class="card-text">Play Rock Paper Scissors online with friends. Built using javascript, JQuery, and
-            Firebase</p> -->
+              Firebase</p> -->
             <!-- <a href="https://ryyder.github.io/RPS-Multiplayer/" class="btn btn-secondary">Live Demo</a> -->
-            <a href="https://github.com/Ryyder/liri-bot" class="btn btn-secondary">Code Link</a>
+            <a href="https://github.com/Ryyder/liri-bot" class="btn btn-secondary" target="_blank">Code Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="zoom-in"
+        data-aos-duration="3000">
+
+        <div class="card" style="width: 16rem;">
+          <img src="assets/images/giphy.gif" class="card-img-top broly" alt="giphy">
+          <div class="card-body">
+            <h5 class="card-title">GIFTastic</h5>
+            <!-- <p class="card-text">Generate GIFs! Built using Javascript, JQuery, and AJAX</p> -->
+            <a href="https://ryyder.github.io/GifTastic/" class="btn btn-secondary" target="_blank">Live Demo</a>
+            <a href="https://github.com/Ryyder/GifTastic" class="btn btn-secondary" target="_blank">Code Link</a>
           </div>
         </div>
 
       </div>
+      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-left"
+        data-aos-duration="3000">
+
+        <div class="card" style="width: 16rem;">
+          <img src="assets/images/rsz_bamazon.png" class="card-img-top broly" alt="giphy">
+          <div class="card-body">
+            <h5 class="card-title">Bamazon</h5>
+            <!-- <p class="card-text">Control your wifi bulb with our app. Built using javascript, JQuery, Google Maps,
+              Open Weather Map, LIFX APIs, and Firebase</p> -->
+            <!-- <a href="https://ryyder.github.io/project1/" class="btn btn-secondary">Live Demo</a> -->
+            <a href="https://github.com/Ryyder/bamazon" class="btn btn-secondary" target="_blank">Code Link</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-lg-4 col-m-6 col-sm-12 mb-3 d-flex justify-content-center" data-aos="fade-up-right"
+        data-aos-duration="3000">
+
+        <!-- <div class="card" style="width: 16rem;">
+          <img src="assets/images/rsz_liri.jpg" class="card-img-top" alt="liri">
+          <div class="card-body">
+            <h5 class="card-title">LIRI Bot</h5>
+            <a href="https://github.com/Ryyder/liri-bot" class="btn btn-secondary">Code Link</a>
+          </div>
+        </div> -->
+
+      </div>
       <div class="col">
 
-           <!-- <div class="card" style="width: 16rem;">
+        <!-- <div class="card" style="width: 16rem;">
             <img src="assets/images/bamazon.png" class="card-img-top" alt="bamazon">
             <div class="card-body">
               <h5 class="card-title">Bamazon</h5>
@@ -364,10 +567,10 @@
       </div>
     </div>
     <br>
-    <div id="section-four">
-  
-    </div>
     <br>
+    <div id="section-five">
+
+    </div>
     <br>
   </div>
 
@@ -379,7 +582,7 @@
       </div>
     </div>
     <hr data-aos="flip-left" data-aos-duration="1000">
-        <!-- <hr class="contentBorder"> -->
+    <!-- <hr class="contentBorder"> -->
   </div>
 
   <div class="container-fluid pb-5 contact form-bg">
@@ -409,20 +612,31 @@
       </div> -->
       <div class="col text-center">
         <ul class="pb-3 contact-text">
-          <li> <h3><img src="assets/images/rsz_email.jpg" alt="email" class="contact-email">cho.bruce@gmail.com</h3></li>
+          <li>
+            <h3><img src="assets/images/rsz_email.jpg" alt="email" class="contact-email"><a href="mailto:cho.bruce@gmail.com?Subject=Interested%20in%20working%20with%20you" target="_top">cho.bruce@gmail.com</a></h3>
+          </li>
           <br>
-          <li><h3><img src="assets/images/rsz_phone.jpg" alt="email" class="contact-email">360-739-5173</h3></li>
+          <li>
+            <h3><img src="assets/images/rsz_phone.jpg" alt="phone" class="contact-email"><a href="tel:1-360-739-5173">1 (360) 739-5173</a></h3>
+          </li>
           <br>
-          <li><h3><a href="https://www.linkedin.com/in/bruce-cho-29780b25/"><img src="assets/images/linkedin.png" alt="linkedin">
-          </a>        
-          <a href="https://github.com/Ryyder"><img src="assets/images/GitHub-Mark-64px.png" alt="github" class="ml-3"></a>
-          <a class="nav-item navbarNameText" href="https://github.com/Ryyder/resume"><img src="assets/images/rsz_1resume.png" alt="resume" class="ml-3"></a></h3></li>
+          <li>
+            <h3><a href="https://www.linkedin.com/in/bruce-cho-29780b25/" target="_blank"><img src="assets/images/linkedin.png"
+                  alt="linkedin">
+              </a>
+              <a href="https://github.com/Ryyder" target="_blank"><img src="assets/images/GitHub-Mark-64px.png" alt="github"
+                  class="ml-3"></a>
+              <a class="nav-item navbarNameText" href="https://github.com/Ryyder/resume" target="_blank"><img
+                  src="assets/images/rsz_1resume.png" alt="resume" class="ml-3"></a></h3>
+          </li>
           <br>
         </ul>
       </div>
     </div>
+    <br>
+    <br>
   </div>
-<!-- </div> -->
+  <!-- </div> -->
 
 
 
